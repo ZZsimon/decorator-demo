@@ -1,0 +1,32 @@
+{
+  "name": "decorator-demo",
+  "version": "1.0.0",
+  "description": "JS装饰器demo",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config=webpack.dev.js --watch",
+    "start": "node ./dist/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZZsimon/decorator-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZZsimon/decorator-demo/issues"
+  },
+  "homepage": "https://github.com/ZZsimon/decorator-demo#readme",
+  "devDependencies": {
+    "@babel/core": "^7.19.1",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-decorators": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
+    "babel-loader": "^8.2.5",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.0"
+  }
+}
