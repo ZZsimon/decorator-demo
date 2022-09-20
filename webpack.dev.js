@@ -3,7 +3,7 @@ var path = require('path')
 module.exports = {
     mode: "development",
     entry: {
-        main: "./test.js"
+        main: "./test03.js"
     },
     output: {
         path: path.resolve(__dirname, "./dist"),
